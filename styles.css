@@ -45,6 +45,12 @@
   font-weight: 900;
 }
 
+.hero-button{
+  align-self: flex-start;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+}
+
 .gray {
   flex: 1;
   background-color: gray;
