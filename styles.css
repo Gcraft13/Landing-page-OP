@@ -65,4 +65,53 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 50px;
+  padding: 25px;
+  
+}
+
+.photo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 25px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  
+  text-wrap: wrap;
+  text-align: center;
+  border: 5px solid blue;
+  border-radius: 10px;
+}
+.card-text{
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
